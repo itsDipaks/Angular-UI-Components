@@ -9,9 +9,7 @@ export class SidebarComponent {
   routes=[
     {routerlink:"/home" ,icons:"home",name:"Home"},
     {routerlink:"/dashboard",icons:"dashboard",name:"Dashboard"},
-    {routerlink:"/home",icons:"home",name:"Coupen"},
-    {routerlink:"/home",icons:"home",name:"Lists"},
-    {routerlink:"/home",icons:"home",name:"Refer"},
+    {routerlink:"/coupen",icons:"home",name:"Coupen"}
   ]
   constructor(){
  

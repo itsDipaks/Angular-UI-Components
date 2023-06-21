@@ -1,9 +1,12 @@
 <mat-nav-list>
-<div class="logo py-4" >
-<img src="../../assets/favicon.ico" alt="="logo>
+<div class="logo" >
+<img src="../../assets/pngicon.png"  alt="="logo>
 </div>
 <mat-divider> </mat-divider>
-<h2 matSubheader class=" text-white">  Application name</h2>
- 
-<a class="my-4 text-white cursor-pointer hover:text-red-400" mat-list-item *ngFor="let links of routes"  routerLink={{links.routerlink}}  routerLinkActive="list-item-active">  {{links.name}} </a>
+<h2 matSubheader class=" text-white text-center text-2xl"> Admin Dashboard </h2>
+<hr>
+<h2 class=" my-5 ml-4 text-white  cursor-pointer mat-list-item" mat-list-item *ngFor="let links of routes"  routerLink={{links.routerlink}}  routerLinkActive="list-item-active">  {{links.name}} </h2>
+
+
 </mat-nav-list>
+ 

@@ -7,5 +7,10 @@ import {MatIconModule} from '@angular/material/icon';
  
 })
 export class AppComponent {
-  title = 'DashboardUi';
+  title = 'admin-panel-layout';
+  sideBarOpen = false;
+
+  sideBarToggler() {
+    this.sideBarOpen = !this.sideBarOpen;
+  }
 }

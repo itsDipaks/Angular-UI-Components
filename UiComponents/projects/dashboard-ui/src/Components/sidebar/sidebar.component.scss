@@ -1,0 +1,25 @@
+.logo{
+    text-align: center;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 30px;
+    }
+}
+.mat-list-item{
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    &:hover{
+        background: #2c3344;
+    }
+   
+}
+.list-item-active{
+    background: #a1a2a5;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
