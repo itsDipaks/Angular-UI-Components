@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {MatIconModule} from '@angular/material/icon';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,7 +7,7 @@ import {MatIconModule} from '@angular/material/icon';
 })
 export class AppComponent {
   title = 'admin-panel-layout';
-  sideBarOpen = false;
+  sideBarOpen = true;
 
   sideBarToggler() {
     this.sideBarOpen = !this.sideBarOpen;
